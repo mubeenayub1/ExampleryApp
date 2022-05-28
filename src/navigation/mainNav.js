@@ -9,6 +9,8 @@ import {AuthContext} from './AuthProvider';
 import SignInScreen from '../Screens/SignUp/SignInScreen';
 import SignUpScreen from '../Screens/SignIn/SignupScreen';
 import HomeScreen from '../Screens/HomeScreen/HomeScreen';
+import ForgetPassword from '../Screens/ForgetPassword/ForgetPassword';
+import OtpScreen from '../Screens/OTPScreen/OtpScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -43,6 +45,16 @@ const MainNav = () => {
             options={{headerShown: false}}
           />
           <Stack.Screen
+            name="ForgetPassword"
+            component={ForgetPassword}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="OtpScreen"
+            component={OtpScreen}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
             name="HomeScreen"
             component={HomeScreen}
             options={{headerShown: false}}
@@ -58,6 +70,16 @@ const MainNav = () => {
           <Stack.Screen
             name="SignUp"
             component={SignUpScreen}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="ForgetPassword"
+            component={ForgetPassword}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="OtpScreen"
+            component={OtpScreen}
             options={{headerShown: false}}
           />
           <Stack.Screen

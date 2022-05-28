@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   headingDetailText: {
     marginTop: moderateScale(5),
     color: Theme.colors.textColor,
-    fontSize: Theme.fontSizes.xxmedium,
+    fontSize: Theme.fontSizes.xmedium,
     fontWeight: '600',
   },
   headingButton: {
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     marginLeft: moderateScale(30),
-    marginTop: moderateScale(30),
+    marginTop: moderateScale(20),
   },
   formContainer: {
     alignItems: 'center',
@@ -95,10 +95,7 @@ const styles = StyleSheet.create({
     marginTop: moderateScale(5),
     // backgroundColor: 'black',
   },
-  errorMsg: {
-    color: '#FF0000',
-    fontSize: 14,
-  },
+
   forgetText: {
     color: Theme.colors.bluePColor,
     fontSize: Theme.fontSizes.medium,

@@ -9,18 +9,18 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     flex: 1,
-    backgroundColor: Theme.colors.bluePColor,
+    backgroundColor: Theme.colors.whiteColor,
   },
   headerContainer: {
-    height: moderateScale(180),
+    height: moderateScale(150),
     width: '100%',
-    // backgroundColor: Theme.colors.grayColor,
+    backgroundColor: Theme.colors.whiteColor,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
   },
   headingText: {
-    color: Theme.colors.whiteColor,
-    fontSize: Theme.fontSizes.xxbig,
+    color: Theme.colors.blackColor,
+    fontSize: Theme.fontSizes.big,
     fontFamily: Theme.fontFamily.bold,
     fontWeight: '800',
     paddingBottom: moderateScale(10),
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   headingDetailText: {
     marginTop: moderateScale(5),
     color: Theme.colors.textColor,
-    fontSize: Theme.fontSizes.xxmedium,
+    fontSize: Theme.fontSizes.xmedium,
     fontWeight: '600',
   },
   headingButton: {
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     marginLeft: moderateScale(30),
-    marginTop: moderateScale(30),
+    marginTop: moderateScale(20),
   },
   formContainer: {
     alignItems: 'center',
@@ -86,7 +86,8 @@ const styles = StyleSheet.create({
   inputText: {
     color: Theme.colors.textColor,
     fontSize: Theme.fontSizes.medium,
-    width: '85%',
+    paddingHorizontal: moderateScale(20),
+    width: '100%',
   },
   forgetTextContainer: {
     width: '80%',
@@ -95,10 +96,7 @@ const styles = StyleSheet.create({
     marginTop: moderateScale(5),
     // backgroundColor: 'black',
   },
-  errorMsg: {
-    color: '#FF0000',
-    fontSize: 14,
-  },
+
   forgetText: {
     color: Theme.colors.bluePColor,
     fontSize: Theme.fontSizes.medium,
